@@ -25,6 +25,6 @@ def pascal_triangle(n):
         for row in range(len(triangle)):
             for column in range(row):
                 if column != 0:
-                    triangle[row][column] = triangle[row - 1][column] +
-                    triangle[row - 1][column - 1]
+                    triangle[row][column] = triangle[
+                        row - 1][column] + triangle[row - 1][column - 1]
     return triangle
