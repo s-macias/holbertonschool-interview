@@ -26,12 +26,3 @@ def pascal_triangle(n):
                 if column != 0:
                     triangle[row][column] = triangle[row - 1][column] + triangle[row - 1][column - 1]
     return triangle
-
-
-    # create n rows
-    triangle.append(1)
-    new_row = [1, 1]
-    # in each row, create 
-    for row in range(n):
-        triangle.append(new_row)
-    return triangle
